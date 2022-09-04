@@ -30,13 +30,11 @@ img {
     position: relative;
 }
 
-
 .hero-container {
 
-    padding-left:40px;
+    padding:0 70px;
     height:100vh;
     position: relative;
-
     
 }
 
@@ -44,7 +42,8 @@ img {
 
     display:flex;
     justify-content: space-between;
-    height:100px;
+    height:120px;
+    padding-top: 15px;
 
 }
 
@@ -62,7 +61,6 @@ img {
     margin-right:30px;
     font-size : 14px;
     
-
 }
 
 .hero-nav > ul > li:last-child {
@@ -84,7 +82,7 @@ img {
 .hero-header-text {
     
     color:white;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 50px;
     
 
@@ -95,6 +93,54 @@ img {
     display:flex;
     justify-content: center;
     list-style: none; 
+
+}
+
+/* BBD Foundations */
+
+.foundations-container {
+
+    padding:20px 10px;
+    background-color: #f5f5f5;
+
+}
+
+.foundations-heading {
+
+    text-transform: capitalize;
+    text-align: center;
+    /* font-size: auto; */
+    margin-bottom: 20px;
+
+}
+
+.foundations {
+
+    display:flex;
+    justify-content: space-between;
+}
+
+.foundations-card {
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+.foundations-smallheading {
+
+    text-transform: capitalize;
+
+}
+
+.foundations-parag {
+
+    
+
+}
+.foundations-card > img {
+
 
 }
 
