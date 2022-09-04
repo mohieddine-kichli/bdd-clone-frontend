@@ -42,7 +42,7 @@ img {
 
     display:flex;
     justify-content: space-between;
-    height:120px;
+    height: 120px;
     padding-top: 15px;
 
 }
@@ -85,7 +85,6 @@ img {
     font-size: 40px;
     margin-bottom: 50px;
     
-
 }
 
 .hero-slideshow > ul {
@@ -96,13 +95,14 @@ img {
 
 }
 
-/* BBD Foundations */
+/* BBD Foundations Section */
+
 
 .foundations-container {
 
-    padding:20px 10px;
-    background-color: #f5f5f5;
-
+    
+    background-color: rgb(240, 239, 239);
+    padding: 40px 0;
 }
 
 .foundations-heading {
@@ -116,32 +116,51 @@ img {
 
 .foundations {
 
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .foundations-card {
 
-    display: flex;
-    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    margin: 10px 10px;
     background-color: white;
-    padding: 20px;
-}
-
-.foundations-smallheading {
-
-    text-transform: capitalize;
+    border-radius: 5px;
 
 }
 
-.foundations-parag {
-
-    
-
-}
 .foundations-card > img {
 
+    height:80px;
+    margin-bottom: 10px;
 
+}
+
+.foundations-card-heading {
+
+    margin-bottom: 20px;
+
+}
+
+/* Video Section */
+
+.video-container {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/parallax-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    position: relative;
+   
+}
+
+.video-container > img {
+
+    height: 100%;
+    margin : auto;
 }
 
 /* Utilities */
