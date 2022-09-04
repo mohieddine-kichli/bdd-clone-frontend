@@ -107,7 +107,7 @@ img {
 
 .foundations-heading {
 
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     /* font-size: auto; */
     margin-bottom: 20px;
@@ -154,13 +154,24 @@ img {
     background-position: center;
     background-repeat:no-repeat;
     position: relative;
+    text-align: center;
+    padding :50px 0
    
+}
+
+.video-heading {
+
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 .video-container > img {
 
-    height: 100%;
-    margin : auto;
+    width:60%;
+    height:auto;
+    padding: 0 20px;
 }
 
 /* Utilities */
@@ -199,4 +210,11 @@ img {
     border-radius: 20px;
     padding :10px 20px;
 
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+    div. {
+      display: none;
 }
