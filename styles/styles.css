@@ -192,8 +192,7 @@ img {
 .join-row {
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content:flex-start;
     padding: 40px 0;
 }
 
@@ -230,6 +229,35 @@ img {
     margin-bottom: 20px;
     line-height: 30px;
 
+}
+
+.bdd-applink {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+/* Statistics Section */
+
+.stat-container {
+
+    background: url(../images/parallax-light.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    position: relative;
+    text-align: center;
+
+}
+
+.statistics {
+
+    padding: 40px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
 }
 
 
@@ -273,8 +301,3 @@ img {
 
 /* Media Queries */
 
-@media screen and (max-width: 600px) {
-    div. {
-      display: none;
-}
-}
